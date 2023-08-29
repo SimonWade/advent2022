@@ -1,3 +1,4 @@
+# Solution for problem: https://adventofcode.com/2022/day/4
 
 def get_ranges(range):
     range_start, range_end = range.split("-")
@@ -36,8 +37,8 @@ def main():
             if do_p2_comparison(range_one, range_two):
                 part_two_total += 1
 
-    print(f"The part one total is {part_one_total}")
-    print(f"The part two total is {part_two_total}")
+    print(f"The Part one total is {part_one_total}")
+    print(f"The Part two total is {part_two_total}")
 
 if __name__ == '__main__':
         main()

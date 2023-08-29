@@ -1,3 +1,4 @@
+# Solution for problem: https://adventofcode.com/2022/day/2
 
 class ActionScores:
     ROCK = 1
