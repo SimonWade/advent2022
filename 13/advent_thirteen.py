@@ -2,6 +2,8 @@
 import ast
 import copy
 
+# Solution for problem: https://adventofcode.com/2022/day/13
+
 def is_list_order_correct(left, right):
     is_correct_order = None
 
